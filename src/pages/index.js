@@ -2,6 +2,8 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
+import dynamic from "next/dynamic";
+import Section1 from '../components/swiper';
 
 export default function Home() {
   return (
@@ -12,6 +14,7 @@ export default function Home() {
         <meta name="viewport" content="width=device-width, initial-scale=1" />
         <link rel="icon" href="/favicon.ico" />
       </Head>
+      <main>
       <nav>
         <div className="navbar">
           <div className="logo">
@@ -43,6 +46,8 @@ export default function Home() {
           </div>
         </div>
       </nav>
+      <Section1></Section1> 
+      </main>
     </>
   );
 }
