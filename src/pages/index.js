@@ -4,6 +4,7 @@ import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 import dynamic from "next/dynamic";
 import Section1 from '../components/swiper';
+import Header from "../components/Header";
 
 export default function Home() {
   return (
@@ -15,38 +16,31 @@ export default function Home() {
         <link rel="icon" href="/favicon.ico" />
       </Head>
       <main>
-      <nav>
-        <div className="navbar">
-          <div className="logo">
-            <Link href="/">
-              <img src="images/homepage/header-logo.png" alt="Logo" />
-            </Link>
+        <div className="nav-header">
+    <Header />
+        </div>
+      <Section1></Section1> 
+      <div className="fun-center">
+        <h2>Welcome To</h2>
+        <h1><span className="first-color">Kid's</span> <span className="second-color">Fun</span> <span className="third-color">Center</span></h1>
+        <div className="fun--center--flexbox">
+          <div className="flexbox open-session">
+            <img src="/images/fun-center/open-sessions.jpg" alt="open-sessions image" />
+            <h3>Open Sessions</h3>
+            <p>Non dipopulo ancilae, epic palo eam erasmus se ergo no am.</p>
           </div>
-          <div className="nav-links">
-            < ul className = "no-bullets">
-              <li>
-                <Link href="/">Home</Link>
-              </li>
-              <li>
-                <Link href="/pages">Pages</Link>
-              </li>
-              <li>
-                <Link href="/events">Events</Link>
-              </li>
-              <li>
-                <Link href="/blog">Blog</Link>
-              </li>
-              <li>
-                <Link href="/shop">Shop</Link>
-              </li>
-              <li>
-                <Link href="/landing">Landing</Link>
-              </li>
-            </ul>
+          <div className="flexbox">
+            <img src="/images/fun-center/class-trips.jpg" alt="class-trips image" />
+            <h3>Class Trips</h3>
+            <p>Non dipopulo ancilae, epic palo eam erasmus se ergo no am.</p>
+          </div>
+          <div className="flexbox">
+            <img src="/images/fun-center/birthday-parties.jpg" alt="birthday party image" />
+            <h3>Birthday Party's</h3>
+            <p>Non dipopulo ancilae, epic palo eam erasmus se ergo no am.</p>
           </div>
         </div>
-      </nav>
-      <Section1></Section1> 
+      </div>
       </main>
     </>
   );

@@ -32,19 +32,23 @@ export default function section1() {
         },
         400:{
             slidesPerView: 1,
-            width:380,
+  
+           
         },
         639:{
             slidesPerView: 1,
-            width:610,
+          
+            
         },
         865:{
             slidesPerView: 1,
-            width:760,
+            
+           
             
         },
-        1000:{
+        1024:{
             slidesPerView: 1,
+           
         },
 
     }}
@@ -64,37 +68,41 @@ export default function section1() {
 
 function Slide1(){
     return (
-       
+       <div className="container">
             <div className="image">
                 <Link href={"/"}><Image src={"/images/slider/h1-revslider-img-1.jpg"} width={900} height={600} /></Link>
             </div>
+       </div>
        
     )
 }
 function Slide2(){
     return (
-      
+      <div className="container">
             <div className="image">
                 <Link href={"/"}><Image src={"/images/slider/h1-revslider-img-2.jpg"} width={900} height={600} /></Link>
             </div>
+      </div>
   
     )
 }
 function Slide3(){
     return (
-        
+        <div className="container">
             <div className="image">
                 <Link href={"/"}><Image src={"/images/slider/h1-revslider-img-3.1.jpg"} width={900} height={600} /></Link>
             </div>
+        </div>
         
     )
 }
 function Slide4(){
     return (
-       
+       <div className="container">
             <div className="image">
                 <Link href={"/"}><Image src={"/images/slider/h1-revslider-img-3.jpg"} width={900} height={600} /></Link>
             </div>
+       </div>
         
     )
 }

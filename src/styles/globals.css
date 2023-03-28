@@ -47,7 +47,7 @@ body {
 
 body {
     color: rgb(var(--foreground-rgb));
-    background: linear-gradient( to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb));
+    /* background: linear-gradient( to bottom, transparent, rgb(var(--background-end-rgb))) rgb(var(--background-start-rgb)); */
 }
 
 a {
@@ -61,6 +61,8 @@ a {
     }
 }
 
+
+/* 
 .navbar {
     display: flex;
     justify-content: space-between;
@@ -97,4 +99,4 @@ a {
     .navbar {
         flex-direction: column;
     }
-}
+} */

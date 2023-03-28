@@ -1,61 +1,180 @@
-      .navbar {
-          display: flex;
-          justify-content: safe;
-          align-items: center;
-          padding: 20px;
-          background-color: #fff;
-          color: black;
-      }
-      
-      .logo {
-          width: 20%;
-          margin-left: 0px;
-      }
-      
-      .logo img {
-          height: 80px;
-      }
-      
-      .nav-links {
-          display: flex;
-          list-style: none;
-          margin: 0;
-          padding: 0;
-          text-decoration: none;
-          width: 47%;
-          font-size: 25px;
-      }
-      
-      .nav-links li {
-          margin: 0 10px;
-      }
-      
-      link {
-          text-decoration: none;
-      }
-      
-      .nav-links ul {
-          display: flex;
-          text-decoration: none;
-      }
-      
-      .nav-links li {
-          color: black;
-          text-decoration: none;
-          font-size: 22px;
-          gap: 3px;
-      }
-      
-      .no-bullets {
-          list-style-type: none;
-      }
-      
-      @media screen and (max-width: 768px) {
-          .navbar {
-              flex-direction: row;
-          }
-      }
-      
-      .Section1 {
-          margin: auto;
-      }
+    * {
+        background-color: #F6F1E4;
+        font-family: "Amatic SC";
+    }
+    
+    body {
+        background-color: #F6F1E4;
+    }
+    
+    .navbar {
+        display: flex;
+        justify-content: space-between;
+        align-items: center;
+        padding: 20px;
+        background-color: F6F1E4;
+        color: #fff;
+    }
+    
+    .logo img {
+        height: 50px;
+    }
+    
+    .nav-links {
+        display: none;
+        justify-content: space-between;
+        align-items: center;
+        list-style: none;
+        margin: 0;
+        padding: 0;
+    }
+    
+    .nav-links li {
+        margin: 0 10px;
+    }
+    
+    .nav-links li {
+        color: #fff;
+        text-decoration: none;
+        font-size: 16px;
+    }
+    
+    link {
+        text-decoration: none;
+    }
+    
+    .nav-links ul {
+        display: flex;
+        text-decoration: none;
+        background: none;
+    }
+    
+    .nav-links li {
+        color: black;
+        text-decoration: none;
+        font-size: 22px;
+        gap: 3px;
+        background: none;
+    }
+    
+    .no-bullets {
+        list-style-type: none;
+    }
+    
+    @media screen and (max-width: 768px) {
+        .navbar {
+            flex-direction: row;
+        }
+    }
+    
+    .Section1 {
+        margin: auto;
+    }
+    
+    .nav-header {
+        background-color: white;
+        color: black;
+    }
+    
+    .fun-center {
+        margin: 20px auto;
+    }
+    
+    .fun--center--flexbox {
+        display: flex;
+        justify-content: center;
+        align-items: center;
+        flex-wrap: wrap;
+    }
+    
+    .fun-center h2 {
+        text-align: center;
+        color: #54595F;
+        margin-top: 14px;
+    }
+    
+    .fun-center h1 {
+        text-align: center;
+        color: #54595F;
+        margin: 20px 0px 20px 0px;
+    }
+    
+    .first-color {
+        color: #C3E1DB;
+    }
+    
+    .second-color {
+        color: #54595F;
+    }
+    
+    .third-color {
+        color: #F47647;
+    }
+    
+    .swiper-pagination {
+        margin: 10px 0px;
+        background: none;
+    }
+    
+    .swiper-button-next,
+    .swiper-button-prev {
+        background: none;
+        display: none;
+    }
+    
+    .open-session {
+        margin-left: 20px;
+    }
+    
+    .flexbox img {
+        height: 100%;
+        width: 100%;
+    }
+    
+    .flexbox {
+        padding: 20px 20px;
+        display: flex;
+        flex-direction: column;
+        width: 40%;
+    }
+    
+    .flexbox img {
+        border-radius: 4%;
+    }
+    
+    .flexbox h3 {
+        margin: 10px 0px;
+        color: #54595F;
+        text-align: center;
+    }
+    
+    .flexbox p {
+        color: #7A7A7A;
+        text-align: center;
+        margin: 10px auto;
+    }
+    
+    .container {
+        width: 80%;
+        margin: auto;
+    }
+    
+    .container img {
+        width: 100%;
+        height: 100%;
+        border-radius: 12px;
+    }
+    
+    @media screen and (min-width: 992px) {
+        .flexbox {
+            width: 30%;
+        }
+        .nav-links {
+            display: flex;
+        }
+        .swiper-button-next,
+        .swiper-button-prev {
+            background: none;
+            display: block;
+        }
+    }
