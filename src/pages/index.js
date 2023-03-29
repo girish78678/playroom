@@ -41,7 +41,32 @@ export default function Home() {
           </div>
         </div>
       </div>
-      </main>
+      <div className="new-events">
+        <div className="event-video">
+          <div className="event-image kids-image">
+      <div className="elementary-image">
+        <img className="blank"src="/images/background-images/pattern.png" alt="aa" />
+      </div>
+          <img src="/images/fun-center/events.jpg" alt="video"/> 
+          </div>
+          <a className= "play--button"itemprop="url" href="https://vimeo.com/13993501" target="_self" data-type="iframe">
+           <img class="qodef-m-image" src="https://playroom.qodeinteractive.com/wp-content/plugins/playroom-core/inc/shortcodes/video-button/assets/img/video-button-play.png" alt="Play icon image"></img>
+          </a>
+        </div>
+        <div className="event-text">
+          <h2>New Video</h2>
+          <h1><span className="first-color">New</span> <span className="second-color">Approach To</span> <span className="third-color">Fun</span></h1>
+          <p>Tollit referrentur contentiones an sed. Ius tacimates defini tione, quoprimatum dicunt labitur te. Te debet tibique.</p>
+          <div className="find-events">
+            <a href="https://playroom.qodeinteractive.com/events/month/">
+           <span class="find-events--text">Find Events</span></a>
+          </div>
+        </div>
+        <div className="elementary-image">
+        <img className="blank" src="/images/background-images/pattern-2.png" alt="aa" />
+      </div>
+      </div>
+    </main>
     </>
   );
 }
