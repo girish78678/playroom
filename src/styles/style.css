@@ -1,6 +1,18 @@
+@import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
 * {
     background-color: #F6F1E4;
-    font-family: "Raleway";
+}
+
+h3,
+h1 {
+    font-family: 'Baloo Chettan 2', cursive;
+    font-weight: 800;
+    color: #444;
+    line-height: 1.149em;
+}
+
+h2 {
+    font-family: "Amatic SC", cursive;
 }
 
 body {
@@ -37,6 +49,7 @@ body {
     color: #fff;
     text-decoration: none;
     font-size: 16px;
+    font-family: 'Baloo Chettan 2', cursive;
 }
 
 link {
@@ -52,9 +65,10 @@ link {
 .nav-links li {
     color: black;
     text-decoration: none;
-    font-size: 22px;
+    font-size: 20px;
     gap: 3px;
     background: none;
+    font-weight: 500;
 }
 
 .no-bullets {
@@ -175,6 +189,7 @@ link {
     text-align: center;
     color: #54595F;
     margin-top: 14px;
+    font-family: "Amatic SC", cursive;
 }
 
 .event-video {
@@ -247,15 +262,249 @@ link {
     max-width: 100%;
     border: none;
     box-shadow: none;
-    background-color: #fff
+    background-color: #fff;
+}
+
+.event-text span {
+    background: none;
+}
+
+.bottom-margin img {
+    margin-top: -31px;
 }
 
 .blank {
     background: none;
+    z-index: 1;
+    display: block;
+    position: absolute;
+    margin: 0px 0px 0px 0px;
 }
 
 .whitespace {
     background: none;
+}
+
+.footer-main-sec {
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+
+.sec-container {
+    width: 40%;
+    color: black;
+}
+
+.copyright {
+    margin: 20px auto;
+    text-align: center;
+    font-size: 16px;
+    color: black;
+}
+
+.orange {
+    color: #ec6830;
+}
+
+.copyright a {
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 26px;
+}
+
+.sec-container h4 {
+    margin: 69px auto 0;
+}
+
+.empty-space {
+    height: 40px;
+}
+
+.hidden {
+    display: none;
+}
+
+.event-play-section {
+    padding: 10%;
+}
+
+.event-play-section h2 {
+    text-align: start;
+    font-family: cursive;
+}
+
+.event-play-section h1 {
+    margin: 10px auto;
+}
+
+.event-play-section p {
+    color: #54595F;
+    margin: 0px 0px 20px 0px;
+}
+
+.event-play-section h2,
+.event-text h2,
+h1,
+p {
+    background: none;
+}
+
+.event-text,
+.event-play-section span {
+    background: none;
+}
+
+.find-events {
+    background: none;
+}
+
+.section-title {
+    color: black;
+}
+
+.experience h3 {
+    color: black;
+    background: none;
+}
+
+.experience--bar {
+    margin: 10px auto;
+    height: 9px;
+    color: black;
+    background: rgb(255, 215, 205);
+    width: 100%;
+    border-radius: 16px;
+}
+
+.exp-flexbox {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+}
+
+.percentage {
+    color: black;
+    background: none;
+}
+
+.create-flexbox {
+    display: flex;
+    justify-content: space-between;
+    background: none;
+}
+
+.event-play-section {
+    background: #fff;
+}
+
+.creativity--bar {
+    margin: 10px auto;
+    margin-left: 0px;
+    height: 9px;
+    color: black;
+    background: rgb(255, 215, 205);
+    width: 70%;
+    border-radius: 16px;
+}
+
+.percentage-70 {
+    color: black;
+    margin: 4px 30% 0px;
+    background: none;
+}
+
+.creativity {
+    background-color: none;
+}
+
+.creativity h3 {
+    color: black;
+    background-color: none !important;
+}
+
+.elementary-image-2 {
+    display: none;
+}
+
+.happy-parents h3,
+h2 {
+    text-align: center;
+}
+
+.happy-parents h3 {
+    font-family: "Amatic SC", cursive;
+    color: rgba(74, 74, 74, .85);
+    margin: 10px auto;
+}
+
+.review-conatiner {
+    margin: 5px auto;
+    width: 60%;
+}
+
+.review {
+    color: black;
+}
+
+.reviews {
+    margin: 15px auto;
+    display: flex;
+    justify-content: center;
+    gap: 22px;
+}
+
+.happy-parents h3 {
+    margin: 52px auto 24px;
+    font-size: 20px;
+}
+
+.happy-parents h2 {
+    font-size: 26px;
+    margin: 15px;
+}
+
+.new-events {
+    margin: 20px auto;
+}
+
+.swiper-pagination {
+    margin: 20px 0px 0px;
+}
+
+.review p {
+    text-align: center;
+    margin: 12px auto;
+    width: 65%;
+}
+
+.review h2 {
+    text-align: center;
+    font-size: 16px;
+    align-self: center;
+    margin-top: 8px;
+}
+
+.instagram {
+    margin-top: 2px;
+}
+
+.footer-section-1 {
+    margin: 10px auto;
+}
+
+.footer-section-1 h3 {
+    font-family: "Baloo Chettan 2", cursive;
+    font-weight: 400;
+    color: #444;
+    font-size: 46px;
+    line-height: 1.307em;
+    margin: 25px 0;
+    -ms-word-wrap: break-word;
+    word-wrap: break-word;
+}
+
+.social-icons-groups {
+    display: flex;
 }
 
 @media screen and (min-width: 992px) {
@@ -264,6 +513,9 @@ link {
     }
     .nav-links {
         display: flex;
+        justify-content: center;
+        align-self: center;
+        margin-right: 10%;
     }
     .swiper-button-next,
     .swiper-button-prev {
@@ -273,4 +525,117 @@ link {
     /* .new-events {
         flex-direction: row;
     } */
+}
+
+@media screen and (max-width:480px) {
+    .play--button img {
+        position: absolute;
+        bottom: -32px;
+        top: -152px;
+        left: -20px;
+        right: 21px;
+        background: none;
+    }
+}
+
+@media screen and (max-width:680px) {
+    .play--button img {
+        position: relative;
+        bottom: -32px;
+        top: -220px;
+        left: -29px;
+        right: 11px;
+        background: none;
+    }
+}
+
+@media screen and (min-width:680px) and (max-width:1020) {
+    .play--button img {
+        bottom: 0px;
+        top: 0px;
+        left: 0px;
+    }
+    .event-video a {
+        position: relative;
+        top: -47%;
+        left: 47%;
+    }
+    .event-play-section {
+        width: 59%;
+        padding: 0px 4%;
+        margin-top: 73px;
+        background-color: #fff;
+    }
+    .elementary-image-2 img {
+        margin: -32px auto;
+    }
+}
+
+@media screen and (min-width: 1020px) {
+    .footer-main-sec {
+        flex-wrap: nowrap;
+    }
+    .new-events {
+        flex-direction: row;
+        background-color: #fff;
+    }
+    .event-text {
+        width: 48%;
+        padding: 0%;
+        margin-top: 90px;
+        background-colo292bfl9r: #fff;
+    }
+    .event-play-section {
+        width: 59%;
+        padding: 0px 4%;
+        margin-top: 120px;
+        background-color: #fff;
+    }
+    /* .kids-image img {
+        width: 70%;
+    } */
+    .event-video {
+        width: 60%;
+    }
+    .play--button img {
+        position: absolute;
+        bottom: -32px;
+        top: -501px;
+        left: -29px;
+        right: 11px;
+        background: none;
+    }
+    .elementary-image-2 img {
+        height: auto;
+        max-width: 100%;
+        border: none;
+        box-shadow: none;
+        background-color: #fff;
+        margin: -42px auto;
+        display: block;
+        z-index: 0;
+        position: absolute;
+        background: none;
+    }
+    .elementary-image-1 {
+        height: auto;
+        max-width: 100%;
+        border: none;
+        box-shadow: none;
+        background-color: #fff;
+        margin: auto;
+        display: contents;
+        z-index: 0;
+        position: absolute;
+        background: none;
+    }
+    .event-play-section {
+        width: 59%;
+        padding: 0px 4%;
+        margin-top: 73px;
+        background-color: #fff;
+    }
+    .elementary-image-2 img {
+        margin: -32px auto;
+    }
 }

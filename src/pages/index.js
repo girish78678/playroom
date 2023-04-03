@@ -2,9 +2,12 @@ import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
 import Link from "next/link";
+
 import dynamic from "next/dynamic";
 import Section1 from '../components/swiper';
+import Parents from '../components/Parents';
 import Header from "../components/Header";
+import Footer from "../components/Footer";
 
 export default function Home() {
   return (
@@ -42,11 +45,14 @@ export default function Home() {
         </div>
       </div>
       <div className="new-events">
+      <div className="elementary-image hidden">
+        <img className="blank"src="/images/background-images/pattern.png" alt="aa" />
+      </div>
         <div className="event-video">
-          <div className="event-image kids-image">
       <div className="elementary-image">
         <img className="blank"src="/images/background-images/pattern.png" alt="aa" />
       </div>
+          <div className="event-image kids-image">
           <img src="/images/fun-center/events.jpg" alt="video"/> 
           </div>
           <a className= "play--button"itemprop="url" href="https://vimeo.com/13993501" target="_self" data-type="iframe">
@@ -62,9 +68,254 @@ export default function Home() {
            <span class="find-events--text">Find Events</span></a>
           </div>
         </div>
-        <div className="elementary-image">
+      </div>
+        <div className="elementary-image bottom-margin">
         <img className="blank" src="/images/background-images/pattern-2.png" alt="aa" />
       </div>
+      <section className="section-padding bg-black">
+      <div className="container">
+        <div className="row">
+          <div className="col-md-5 text-left">
+            <h2 className="section-title">
+              <span>Our Work</span>
+            </h2>
+            <hr className="border-2" />
+          </div>
+        </div>
+        <div className="row">
+          <div className="col-md-12 text-left">
+            <ul className="gallery-filter">
+              <li className="active" data-filter="*">
+                All
+              </li>
+              <li data-filter=".films">Films</li>
+              <li data-filter=".webseries">Web Series</li>
+              <li data-filter=".tvc">TVC</li>
+              <li data-filter=".musicvideo">Music Video</li>
+            </ul>
+          </div>
+        </div>
+        <div className="row gallery-items">
+          <div className="masonry-items">
+            <div className="col-md-4 gallery-masonry-wrapper single-item films">
+              <a
+                href="img/works/bajirao-mastani.jpg"
+                title=""
+                className="gallery-masonry-item-img-link img-zoom"
+              >
+                <div className="gallery-box">
+                  <div className="gallery-img">
+                    {" "}
+                    <img
+                      src="/img/works/bajirao-mastani.jpg"
+                      className="img-fluid mx-auto d-block"
+                      alt=""
+                    />{" "}
+                  </div>
+                  <div className="gallery-masonry-item-img"></div>
+                </div>
+              </a>
+            </div>
+            <div className="col-md-4 gallery-masonry-wrapper single-item films">
+              <a
+                href="img/works/102-not-out.jpg"
+                title=""
+                className="gallery-masonry-item-img-link img-zoom"
+              >
+                <div className="gallery-box">
+                  <div className="gallery-img">
+                    {" "}
+                    <img
+                      src="/img/works/102-not-out.jpg"
+                      className="img-fluid mx-auto d-block"
+                      alt=""
+                    />{" "}
+                  </div>
+                  <div className="gallery-masonry-item-img"></div>
+                </div>
+              </a>
+            </div>
+            <div className="col-md-4 gallery-masonry-wrapper single-item films">
+              <a
+                href="img/works/padmaavat.jpg"
+                title=""
+                className="gallery-masonry-item-img-link img-zoom"
+              >
+                <div className="gallery-box">
+                  <div className="gallery-img">
+                    {" "}
+                    <img
+                      src="/img/works/padmaavat.jpg"
+                      className="img-fluid mx-auto d-block"
+                      alt=""
+                    />{" "}
+                  </div>
+                  <div className="gallery-masonry-item-img"></div>
+                </div>
+              </a>
+            </div>
+            <div className="col-md-4 gallery-masonry-wrapper single-item films">
+              <a
+                href="img/works/pushpa.jpg"
+                title=""
+                className="gallery-masonry-item-img-link img-zoom"
+              >
+                <div className="gallery-box">
+                  <div className="gallery-img">
+                    {" "}
+                    <img
+                      src="/img/works/pushpa.jpg"
+                      className="img-fluid mx-auto d-block"
+                      alt=""
+                    />{" "}
+                  </div>
+                  <div className="gallery-masonry-item-img"></div>
+                </div>
+              </a>
+            </div>
+            <div className="col-md-4 gallery-masonry-wrapper single-item webseries">
+              <a
+                href="img/works/cartel.jpg"
+                title=""
+                className="gallery-masonry-item-img-link img-zoom"
+              >
+                <div className="gallery-box">
+                  <div className="gallery-img">
+                    {" "}
+                    <img
+                      src="/img/works/cartel.jpg"
+                      className="img-fluid mx-auto d-block"
+                      alt=""
+                    />{" "}
+                  </div>
+                  <div className="gallery-masonry-item-img"></div>
+                </div>
+              </a>
+            </div>
+            <div className="col-md-4 gallery-masonry-wrapper single-item webseries">
+              <a
+                href="img/works/ray.jpg"
+                title=""
+                className="gallery-masonry-item-img-link img-zoom"
+              >
+                <div className="gallery-box">
+                  <div className="gallery-img">
+                    {" "}
+                    <img
+                      src="/img/works/ray.jpg"
+                      className="img-fluid mx-auto d-block"
+                      alt=""
+                    />{" "}
+                  </div>
+                  <div className="gallery-masonry-item-img"></div>
+                </div>
+              </a>
+            </div>
+            <div className="col-md-4 gallery-masonry-wrapper single-item musicvideo">
+              <a
+                href="img/works/music-video.jpg"
+                title=""
+                className="gallery-masonry-item-img-link img-zoom"
+              >
+                <div className="gallery-box">
+                  <div className="gallery-img">
+                    {" "}
+                    <img
+                      src="/img/works/music-video.jpg"
+                      className="img-fluid mx-auto d-block"
+                      alt=""
+                    />{" "}
+                  </div>
+                  <div className="gallery-masonry-item-img"></div>
+                </div>
+              </a>
+            </div>
+            <div className="col-md-4 gallery-masonry-wrapper single-item tvc">
+              <a
+                href="img/works/ranveer.jpg"
+                title=""
+                className="gallery-masonry-item-img-link img-zoom"
+              >
+                <div className="gallery-box">
+                  <div className="gallery-img">
+                    {" "} 
+                    <img
+                      src="/img/works/ranveer.jpg"
+                      className="img-fluid mx-auto d-block"
+                      alt=""
+                    />{" "}
+                  </div>
+                  <div className="gallery-masonry-item-img"></div>
+                </div>
+              </a>
+            </div>
+            <div className="col-md-4 gallery-masonry-wrapper single-item tvc">
+              <a
+                href="img/works/akshay.jpg"
+                title=""
+                className="gallery-masonry-item-img-link img-zoom"
+              >
+                <div className="gallery-box">
+                  <div className="gallery-img">
+                    {" "}
+                    <img
+                      src="/img/works/akshay.jpg"
+                      className="img-fluid mx-auto d-block"
+                      alt=""
+                    />{" "}
+                  </div>
+                  <div className="gallery-masonry-item-img"></div>
+                </div>
+              </a>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+      <div className="elementary-image-1 ">
+        <img className="blank"src="/images/homepage/elementary-1.png" alt="aa" />
+      </div>
+    <div className="new-events">
+        <div className="event-play-section">
+          <h2>Come and see</h2>
+          <h1><span className="first-color">Play</span> <span className="second-color">& Learn with</span> <span className="third-color">Us</span></h1>
+          <p>Lorem ipsum dolor sit amet, an aeque vitupera tori has, sed eta solumstemst maluisset at, ad mei ecco hinc indoctum. </p>
+          <div className="exp-flexbox">
+          <div className="experience">
+            
+              <h3>Experience </h3>
+          </div>
+              <div className="percentage">95%</div>
+          </div>
+           <div className="experience--bar"></div>
+           <div className="create-flexbox">
+
+          <div className="creativity">
+              <h3>Creativity</h3>
+              </div>
+              <div className="percentage-70">70%</div>
+           </div>
+           <div className="creativity--bar"></div>
+          </div>
+     
+        <div className="event-video">
+          <div className="event-image kids-image">
+          <img src="/images/homepage/trekking.jpg" alt="trekking image"/> 
+          </div>
+        </div>
+      </div>
+        <div className="elementary-image-2 ">
+        <img className="blank elementary-2" src="/images/background-images/pattern-2.png" alt="aa" />
+      </div>
+      <div className="happy-parents">
+        <h3>What They Say</h3>
+        <h2> <span className="first-color">Our</span> <span className="second-color">Happy</span> <span className="third-color">Parents</span></h2>
+      </div>
+      <div className="swiper--2">
+        <Parents />
+      </div>
+      <div className="footer-sec">
+      <Footer />
       </div>
     </main>
     </>
