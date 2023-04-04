@@ -52,7 +52,7 @@ export default function UpcomingEvents() {
         </div>
        
     )
-}
+
 function Parent2(){
     return (
       <div className="upcoming-container">
@@ -134,4 +134,4 @@ function Parent3(){
 </div>
   )
 }
-
+  }
