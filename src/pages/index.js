@@ -72,7 +72,7 @@ export default function Home() {
         <div className="elementary-image bottom-margin">
         <img className="blank" src="/images/background-images/pattern-2.png" alt="aa" />
       </div>
-      <section className="section-padding bg-black">
+      {/* <section className="section-padding bg-black">
       <div className="container">
         <div className="row">
           <div className="col-md-5 text-left">
@@ -271,7 +271,7 @@ export default function Home() {
           </div>
         </div>
       </div>
-    </section>
+    </section> */}
       <div className="elementary-image-1 ">
         <img className="blank"src="/images/homepage/elementary-1.png" alt="aa" />
       </div>
@@ -313,6 +313,79 @@ export default function Home() {
       </div>
       <div className="swiper--2">
         <Parents />
+      </div>
+
+<div className="activities-container">
+
+    <div className="activites">
+      <div className="activities--heading">
+        <h3>These are our </h3>
+        <h2><span className="second-color"> Upcoming</span ><span className="third-color"> Events </span></h2>
+        <p>Mel utinam nibh suscipit, vidisse tibique offendit. Quis nostrud admodumem. Mel nibh suscipit, deleniti.</p>
+      </div>
+        
+      <div className="edof-wrapper">
+
+       <div className="upcoming-container">
+        <div className="new--even-flex">
+
+          <div className="date-holder">
+          <h3>30.</h3>
+          Oct
+           </div>
+          <div className="event-slider-content">
+            <h4>Hallowen Party</h4>
+            <div className="info-bottom">
+             <div className="info-category"><p>Party/</p>
+             </div>
+            <div className="event-list-time">
+             <p>12:00 Am to 11:59 Pm</p>
+            </div>
+          </div>
+        </div>
+      </div>
+      <div className="upcoming-container">
+      <div className="new--even-flex">
+          <div className="date-holder">
+          <h3>19.</h3>
+          Dec
+           </div>
+          <div className="event-slider-content">
+            <h4>Arts and Crafts</h4>
+            <div className="info-bottom">
+             <div className="info-category"><p>Toddlers/</p>
+             </div>
+            <div className="event-list-time">
+             <p>12:30 pm to 1:30 Pm</p>
+            </div>
+          </div>
+      </div>
+          </div>
+      </div>
+      <div className="upcoming-container">
+      <div className="new--even-flex">
+          <div className="date-holder">
+          <h3>17.</h3>
+          Nov
+           </div>
+          <div className="event-slider-content">
+            <h4>Trampolines</h4>
+            <div className="info-bottom">
+             <div className="info-category"><p>Outdoor/</p>
+             </div>
+            <div className="event-list-time">
+             <p>8:00 Am to 5:00 Pm</p>
+            </div>
+          </div>
+      </div>
+      </div>
+  </div>
+  </div>
+  </div>
+</div>
+  <div className="activites-image">
+    <img src="images/homepage/halloween.jpg" alt="activities" />
+  </div>
       </div>
       <div className="footer-sec">
       <Footer />

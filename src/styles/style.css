@@ -1,6 +1,12 @@
+@import url('https://fonts.googleapis.com/css2?family=Raleway:wght@500&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Baloo+Chettan+2&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Roboto+Condensed:wght@300&display=swap');
 * {
     background-color: #F6F1E4;
+}
+
+span {
+    background: none;
 }
 
 h3,
@@ -233,6 +239,7 @@ link {
 .event-text p {
     color: #54595F;
     margin: 0px 0px 20px 0px;
+    background: none;
 }
 
 .find-events {
@@ -307,9 +314,15 @@ link {
     color: #ec6830;
 }
 
+.copyright p {
+    background-color: #fff;
+    margin-top: 56px;
+}
+
 .copyright a {
     font-family: 'Baloo Chettan 2', cursive;
     font-size: 26px;
+    background: none;
 }
 
 .sec-container h4 {
@@ -340,12 +353,12 @@ link {
 .event-play-section p {
     color: #54595F;
     margin: 0px 0px 20px 0px;
+    background: none;
 }
 
 .event-play-section h2,
 .event-text h2,
-h1,
-p {
+h1 {
     background: none;
 }
 
@@ -507,6 +520,129 @@ h2 {
     display: flex;
 }
 
+.h6 {
+    font-family: 'Baloo Chettan 2', cursive;
+    margin: 10px auto;
+    font-size: 22px;
+}
+
+.empty--space {
+    margin-top: 60px;
+}
+
+.sec-container h4 {
+    margin: 10px auto;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 26px;
+}
+
+.inner-text {
+    margin: 10px auto;
+    opacity: 0.7;
+}
+
+.info-title {
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 33px;
+}
+
+.e-title-text {
+    margin: 10px auto;
+    opacity: 0.7;
+}
+
+.e-title-text-2 {
+    margin: 10px auto;
+    opacity: 0.7;
+}
+
+.footer-section-1 p {
+    opacity: 0.7;
+    background: none;
+}
+
+.info-date {
+    margin: 10px auto;
+    font-size: 18px;
+    font-family: "amatic Sc";
+    opacity: 0.7;
+}
+
+.social-icons-groups {
+    margin: 15px auto;
+}
+
+.opacity {
+    opacity: 0.7;
+}
+
+.e-title-text {
+    display: flex;
+    justify-content: left;
+    align-content: flex-start;
+    align-items: flex-start;
+    align-content: flex-start;
+}
+
+.sidepanel {
+    width: 100%;
+    position: fixed;
+    z-index: 1;
+    height: 600px;
+    top: 0;
+    right: -100%;
+    background-color: white;
+    overflow-x: hidden;
+    transition: 0.5s;
+    padding-top: 20px;
+}
+
+.sidepanel a {
+    padding: 8px 8px 8px 32px;
+    text-decoration: none;
+    font-size: 25px;
+    color: black;
+    display: block;
+    transition: 0.3s;
+    font-family: Amatic SC;
+    border-bottom: 1px solid #dbdbdb;
+    margin: 0px 20px;
+}
+
+.sidepanel a .no--border {
+    border: none;
+}
+
+.sidepanel a:hover {
+    color: #fff;
+}
+
+.sidepanel .closebtn {
+    position: absolute;
+    top: -12px;
+    right: 9px;
+    font-size: 57px;
+}
+
+.openbtn {
+    font-size: 40px !important;
+    cursor: pointer;
+    color: #F47647;
+    padding: -1px 0px;
+    border: none;
+    display: flex;
+    width: 8%;
+    background: none;
+    margin: 0 auto;
+    max-width: calc(1300px - 40px);
+    min-height: 50px;
+    justify-content: flex-start;
+    align-self: center;
+    margin: 0 0 2 4;
+    padding-left: 3px;
+    margin-right: 10px;
+}
+
 @media screen and (min-width: 992px) {
     .flexbox {
         width: 30%;
@@ -525,6 +661,139 @@ h2 {
     /* .new-events {
         flex-direction: row;
     } */
+    .openbtn {
+        display: none;
+    }
+}
+
+.edof-wrapper {
+    display: flex;
+    padding: 20px 14%;
+    background-color: #C3E1DB;
+}
+
+.upcoming-container {
+    display: flex;
+    color: black;
+    flex-direction: column;
+    background-color: #C3E1DB;
+    margin: 20px 0 0 0%;
+}
+
+.new--even-flex {
+    display: flex;
+    gap: 66px;
+    height: 98px;
+    padding: 28px;
+    font-family: augustic c;
+    width: 188%;
+    margin-bottom: 35px;
+    border-radius: 14px;
+}
+
+.activites-image {
+    background: none;
+    margin-bottom: 100px;
+}
+
+.activies {
+    background-color: #C3E1DB;
+    margin-bottom: 30px;
+}
+
+.activies p {
+    color: black;
+}
+
+.experience {
+    background: none;
+}
+
+.creativity {
+    background: none;
+}
+
+.activites h2,
+h3 {
+    text-align: left;
+    color: black;
+    margin-top: 14px;
+    font-family: "'Baloo Chettan 2', cursive";
+}
+
+.new--even-flex p,
+h3 {
+    background: none;
+}
+
+.data-holder h3 {
+    font-size: 22px;
+    background: none;
+    padding-bottom: 3px;
+}
+
+.event-slider-content {
+    font-size: 20px;
+    background: none;
+    font-family: 'Raleway', sans-serif;
+}
+
+.info-bottom {
+    display: flex;
+    gap: 3px;
+    font-size: 16px;
+    background: none;
+    font-family: 'Roboto Condensed', sans-serif;
+}
+
+.data-holder {
+    margin-top: -12px;
+    background: none;
+}
+
+.activities-container {
+    display: flex;
+    flex-direction: column;
+    background-color: #C3E1DB;
+}
+
+.activities--heading p {
+    color: black;
+    font-family: Raleway, sans-serif;
+    text-align: center;
+    margin-top: 15px;
+    background: none;
+}
+
+.activities--heading h3 {
+    margin-top: 33px;
+    padding-top: 23px;
+    font-family: "Amatic SC";
+    margin-left: 6%;
+    font-size: 26px;
+    font-weight: 300;
+}
+
+.activities--heading h2 {
+    font-weight: 700;
+    margin: 10px 0px 0px 10%;
+    background: none;
+    font-family: 'Baloo Chettan 2', cursive;
+    font-size: 30px;
+    margin-left: 5%;
+}
+
+.activities--heading {
+    background-color: #C3E1DB;
+}
+
+.activites {
+    background-color: #C3E1DB;
+}
+
+.activites-image img {
+    background: none;
+    margin-left: 5%;
 }
 
 @media screen and (max-width:480px) {
@@ -572,8 +841,14 @@ h2 {
 }
 
 @media screen and (min-width: 1020px) {
+    .sec-container {
+        margin-left: 2%;
+    }
     .footer-main-sec {
         flex-wrap: nowrap;
+    }
+    .empty--space {
+        margin-top: 40px;
     }
     .new-events {
         flex-direction: row;
@@ -582,8 +857,8 @@ h2 {
     .event-text {
         width: 48%;
         padding: 0%;
-        margin-top: 90px;
-        background-colo292bfl9r: #fff;
+        margin-top: 164px;
+        background-color: #fff;
     }
     .event-play-section {
         width: 59%;
@@ -629,13 +904,55 @@ h2 {
         position: absolute;
         background: none;
     }
+    .activities-container {
+        flex-direction: row;
+    }
     .event-play-section {
         width: 59%;
         padding: 0px 4%;
-        margin-top: 73px;
+        margin-top: 117px;
         background-color: #fff;
     }
     .elementary-image-2 img {
         margin: -32px auto;
+    }
+    .activities--heading h3 {
+        margin-top: 33px;
+        padding-top: 23px;
+        font-family: "Amatic SC";
+        margin-left: 13%;
+        font-size: 26px;
+        font-weight: 300;
+    }
+    .activities--heading h2 {
+        font-weight: 700;
+        margin: 10px 0px 0px 10%;
+        margin-left: 10%;
+        background: none;
+        font-family: 'Baloo Chettan 2', cursive;
+        font-size: 30px;
+        margin-left: 13%;
+    }
+    .activities--heading p {
+        color: black;
+        font-family: Raleway, sans-serif;
+        margin-left: 13%;
+        margin-top: 15px;
+        background: none;
+        text-align: left;
+    }
+    .new--even-flex {
+        width: 128%;
+    }
+    .activites-image img {
+        background: none;
+        margin-left: 6%;
+        width: 78%;
+        margin-top: 8%;
+    }
+    .activites-image {
+        background: none;
+        margin-top: 73px;
+        width: 80%;
     }
 }
