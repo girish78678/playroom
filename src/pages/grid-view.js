@@ -17,6 +17,13 @@ export default function GridHome() {
       </Head>
       <main className="body">
       <header>
+        <div className="inner--header">
+          <div className="left-p">A place where kids have fun & learn</div>
+          <div className="nav--flex">
+            <div>Gold Street 40, NY 12365</div>
+            <div>Mon - Sun : 9am - 8pm</div>
+          </div>
+        </div>
       <nav>
           <div className="navbar navbar-grid">
         <div className="logo">
@@ -35,8 +42,12 @@ export default function GridHome() {
               <a href="#" className="nav-link">Landing</a>
               </div>
             <button className="openbtn open-btn-grid" onClick={() => openNav()}>...</button>
-
-      <div className="nav-links">
+  </div>
+<div className="grid--nav--flex">
+<div className="grid--logo">
+  <img src="images/grid-home/center--logo.png" alt="playroom" />
+</div>
+      <div className="nav-links grid-nav">
               <ul className="no-bullets">
         <li>
           <Link href="/">Home</Link>
@@ -56,12 +67,9 @@ export default function GridHome() {
         <li>
           <Link href="/landing">Landing</Link>
         </li>
-        <li>
-                  <Link href="/grid-view">Grid View</Link>
-        </li>
       </ul>
     </div>
-  </div>
+</div>
 </nav>
 </header>
 <div className="grid-hero">
@@ -70,7 +78,7 @@ export default function GridHome() {
   <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit ut elittellus, luctus nec ullamcorper?</p>
   <button>Read More</button>
 </div>
-<div className="qodef-events-year-flexbox">
+<div className="qodef-learn-play-flexbox">
 <div className="learn--and--play--text">
     <h3>Perfect Spot To</h3>
     <h2><span className="change-color"> Learn </span><span className="second-color"> And</span> <span className="third-color">Play</span> </h2>
@@ -86,7 +94,45 @@ export default function GridHome() {
   <div className="down-breaker">
   <img src="/images/grid-home/down-breaker.png" alt="elementor" />
 </div>
+<div className="latest--stories--section">
 
+<div className="latest-stories">
+    <h3>Read About Us</h3>
+    <h2><span className="change-color"> Our </span><span className="second-color"> Latest</span> <span className="third-color">Stories</span> </h2>
+    </div>
+    <div class="my-flex-container">
+  <div class="my-card">
+   <img src="/images/grid-home/kid-1.jpg" alt="kid" />
+    <div class="my-card-content">
+      <h2>Come With Us and Have More Fun</h2>
+      <div className="card--content--flexbox">
+      <p class="my-date">June 5 2020</p>
+      <p class="my-play">Play</p>
+      </div>
+    </div>
+  </div>
+  <div class="my-card">
+  <img src="/images/grid-home/kid-2.jpg" alt="kid" />
+    <div class="my-card-content">
+      <h2>Doing What They Know and Love </h2>
+      <div className="card--content--flexbox">
+      <p class="my-date">June 5 2020</p>
+      <p class="my-play">Play</p>
+      </div>
+    </div>
+  </div>
+  <div class="my-card">
+    <img src="/images/grid-home/kid-3.jpg" alt="kid" />
+    <div class="my-card-content">
+      <h2>Always Be There for Your Child </h2>
+      <div className="card--content--flexbox">
+      <p class="my-date">June 5 2020</p>
+      <p class="my-play">Play</p>
+      </div>
+    </div>
+  </div>
+</div>
+</div>
 <div className="up-breaker">
   <img src="/images/grid-home/up-breaker.png" alt="elementor" />
 </div>
@@ -94,7 +140,7 @@ export default function GridHome() {
   <div className="breaker-image">
     <img src="/images/grid-home/up-breaker-image.png" alt="kid image" />
   </div>
-  <div className="events-year-text">
+  <div className="events-year-text right--text">
     <h3>Fun Never Stops</h3>
     <h2><span className="change-color"> Events </span><span className="second-color"> Year</span> <span className="third-color">Round</span> </h2>
     <p>Erant nullam periculis mei ut, no has nusquam voluptaria. Usu graeco praesent et. Ex persius voluptatum vis quod?</p>
@@ -145,11 +191,11 @@ export default function GridHome() {
 <h2>Playroom</h2>
 <p className="p-center">No homero evertitur vim, sea et impedit inimicus hon estatis afacit.</p>
 <div className="grid-social-icons">
-         <div className="grid-icon"><img src="images/icons/facebook.png" alt="facebook"/>
+           <div className="grid-icon"> <img src="images/grid-home/instagram.png" alt="instagram"/>
            </div>
-            <div className="grid-icon"><img src="images/icons/twitter.png" alt="twitter"/>
+         <div className="grid-icon"><img src="images/grid-home/facebook.png" alt="facebook"/>
            </div>
-           <div className="grid-icon"> <img src="images/icons/instagram.png" alt="instagram"/>
+            <div className="grid-icon"><img src="images/grid-home/twitter.png" alt="twitter"/>
            </div>
 
          </div>
