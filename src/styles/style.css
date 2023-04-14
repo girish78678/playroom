@@ -1520,4 +1520,24 @@
                 left: 46px;
                 top: 4px;
             }
+            .pricing-flexbox {
+                padding-bottom: 10%;
+                background-color: #f6f1e4;
+                justify-content: center;
+                gap: 40px;
+            }
+            .pricing-item {
+                width: 30%;
+                margin: 0 auto;
+            }
+            .pricing-item-1,
+            .pricing-item-2,
+            .pricing-item-3 {
+                margin: 0;
+                padding: 0;
+            }
+            .body {
+                margin: auto;
+                display: block;
+            }
         }
