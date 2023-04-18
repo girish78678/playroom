@@ -1540,4 +1540,11 @@
                 margin: auto;
                 display: block;
             }
+            .footer-flexbox {
+                display: flex;
+                flex-direction: row;
+                align-items: baseline;
+                justify-content: space-between;
+                padding-bottom: 6px;
+            }
         }
