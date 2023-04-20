@@ -1,6 +1,4 @@
 import Link from "next/link";
-// import { openNav } from "./pages/navbar.js";
-// import { closeNav }from ".pages/navbar.js";
 import Head from "next/head.js";
 const Header = () => {
   return(
@@ -22,7 +20,7 @@ const Header = () => {
                     <a href="#" class="nav-link"> Shop</a>
                     <a href="#" class="nav-link"> Landing</a>
                 </div>
-                <button class="openbtn" onclick="openNav()"> ☰ </button>
+                <button class="openbtn"> ☰ </button>
                 
           <div className="nav-links">
             < ul className = "no-bullets">
