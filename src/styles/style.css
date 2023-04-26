@@ -1548,3 +1548,136 @@
                 padding-bottom: 6px;
             }
         }
+        /* animator */
+        
+        .animator {
+            background-image: url("/images/animator/test-1.jpg");
+            background-position: top center;
+            background-size: cover;
+            width: 100%;
+        }
+        
+        .animator--flexbox {
+            padding-bottom: 20%;
+        }
+        
+        .animator--text h3 {
+            text-align: left;
+            margin: 10% 10% 1%;
+            font-family: "Amatic SC", cursive;
+            font-size: 27px;
+            font-weight: 700;
+            line-height: 30px;
+        }
+        
+        .animator--text h1 {
+            text-align: left;
+            margin: 1% 10% 1%;
+            font-family: "Baloo Chettan 2", cursive;
+        }
+        
+        .animator--text p {
+            margin-left: 10%;
+            color: #444;
+            margin-top: 2%;
+            margin-bottom: 2%;
+            font-family: Raleway, sans-serif;
+            font-size: 16px;
+            line-height: 1.625em;
+            font-weight: 400;
+            color: #6c7272;
+        }
+        
+        .Bold--animator {
+            color: black;
+        }
+        
+        .social--heading {
+            color: #444;
+            margin-left: 10%;
+        }
+        
+        .social-icons-animator {
+            display: flex;
+            margin-left: 10%;
+        }
+        
+        .location {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+        
+        .call-us {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+        
+        .Email--us {
+            display: flex;
+            gap: 5px;
+            align-items: center;
+        }
+        
+        .social--footer {
+            display: flex;
+            align-items: center;
+            gap: 5px;
+        }
+        
+        .footer--flexbox__animator {
+            display: flex;
+            gap: 20px;
+            color: #444;
+            background-color: #f6e3db;
+            padding: 2% 5% 2% 5%;
+            flex-direction: column;
+            justify-content: space-evenly;
+        }
+        
+        .social-icons-animator--footer {
+            display: flex;
+        }
+        
+        @media screen and (min-width: 768px) and (max-width: 1020px) {
+            .footer--flexbox__animator {
+                justify-content: center;
+                flex-wrap: wrap;
+            }
+            .location {
+                width: 40%;
+            }
+            .call-us {
+                width: 40%;
+            }
+            .Email--us {
+                width: 40%;
+            }
+            .social-icons-animator {
+                width: 40%;
+            }
+        }
+        
+        @media screen and (min-width: 542px) {
+            .animator--text p {
+                width: 40%;
+            }
+        }
+        
+        @media screen and (min-width: 1020px) {
+            .footer--flexbox__animator {
+                display: flex;
+                gap: 20px;
+                color: #444;
+                flex-wrap: wrap;
+                padding-top: 2%;
+                padding-bottom: 2%;
+                padding-right: 0%;
+                padding-left: 0%;
+                align-items: center;
+                justify-content: center;
+                flex-direction: row;
+                font-size: 14px;
+            }
+        }

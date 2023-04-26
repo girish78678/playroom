@@ -43,7 +43,10 @@ const Header = () => {
                 <Link href="/landing">Landing</Link>
               </li>
               <li>
-                <Link href="/grid-view">grid-view</Link>
+                <Link href="/grid-view">Grid Home</Link>
+              </li>
+              <li>
+                <Link href="/animator">Animator</Link>
               </li>
             </ul>
           </div>
