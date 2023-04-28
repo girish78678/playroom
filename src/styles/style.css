@@ -1659,6 +1659,13 @@
             }
         }
         
+        @media screen and (max-width: 542px) {
+            .animator--text {
+                width: 60%;
+                text-align: left;
+            }
+        }
+        
         @media screen and (min-width: 542px) {
             .animator--text p {
                 width: 40%;
@@ -1679,5 +1686,111 @@
                 justify-content: center;
                 flex-direction: row;
                 font-size: 14px;
+            }
+        }
+        /* Rules of play */
+        
+        .ROP--hero {
+            background-image: url("/images/ROP/hero.jpg");
+            background-position: center;
+            background-size: contain;
+            width: 100%;
+            background-repeat: no-repeat;
+            background-color: #fff !important;
+        }
+        
+        .ROP--hero p {
+            margin: 2% auto;
+            font-family: "Amatic SC", cursive;
+            font-weight: 700;
+            font-size: 27px;
+            color: rgba(74, 74, 74, .85);
+            text-align: center;
+            padding-top: 5%;
+            padding-bottom: 1%;
+            background-color: #fff !important;
+        }
+        
+        .ROP--hero h1 {
+            padding-bottom: 10%;
+            font-size: 48px;
+            text-align: center;
+            padding-bottom: 5%;
+        }
+        
+        .fun--center--flexbox--2 {
+            display: flex;
+            justify-content: space-between;
+            align-items: center;
+            flex-wrap: wrap;
+            margin: auto;
+        }
+        
+        .rop-item {
+            width: 100%;
+        }
+        
+        .fun--center--flexbox--2 :first-child {
+            margin-left: 0px;
+        }
+        
+        .play-more-image img {
+            width: 100%;
+        }
+        
+        .play-more-text {
+            margin-top: 0px;
+            padding: 10% 30px 10%;
+            background-color: #fff;
+        }
+        
+        .play-more-text h3 {
+            display: block;
+            margin: 0px auto 15px;
+            font-family: "Amatic SC", cursive;
+            font-size: 27px;
+            font-weight: 700;
+            line-height: 30px;
+            color: rgba(74, 74, 74, .85);
+        }
+        
+        .play-more-text h2 {
+            text-align: left;
+            font-size: 32px;
+            font-family: "roboto";
+        }
+        
+        .play-more-text p {
+            text-align: left;
+            font-size: 18px;
+            font-family: "raleway";
+            color: #444;
+            margin: 10px auto 20px;
+        }
+        
+        .border--button {
+            background-color: #ffd7cd;
+            color: #ec6830;
+            font-size: 1rem;
+            cursor: pointer;
+            padding: 0.5rem 1rem;
+            border: dotted;
+            border-radius: 0.25rem;
+            display: block;
+            margin-left: 0;
+        }
+        
+        @media screen and (min-width: 576px) {
+            .ROP--hero {
+                height: 100%;
+                background-image: url("/images/ROP/hero.jpg");
+                background-position: center;
+                background-size: cover;
+                width: 100%;
+                background-repeat: no-repeat;
+                background-color: #fff !important;
+            }
+            .rop-item {
+                width: 45%;
             }
         }

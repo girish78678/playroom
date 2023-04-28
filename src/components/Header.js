@@ -48,6 +48,9 @@ const Header = () => {
               <li>
                 <Link href="/animator">Animator</Link>
               </li>
+              <li>
+                <Link href="/rules--of--play">Rules Of Play</Link>
+              </li>
             </ul>
           </div>
         </div>
