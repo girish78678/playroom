@@ -17,11 +17,11 @@ export default function ROP() {
       <main className="ROP">
         <header>
         <div className="navbar navbar-grid">
-        <div className="logo">
-          <Link href="/">
-            <img src="images/homepage/header-logo.png" alt="Logo" />
-          </Link>
-        </div>
+           <div className="logo">
+            <Link href="/">
+              <img src="images/homepage/header-logo.png" alt="Logo" />
+            </Link>
+            </div>
 
             <div id="mySidepanel" className="sidepanel">
               <a href="javascript:void(0)" className="closebtn" onClick={() => closeNav()}>×</a>
@@ -32,9 +32,43 @@ export default function ROP() {
               <a href="#" className="nav-link">Shop</a>
               <a href="#" className="nav-link">Landing</a>
               </div>
-            <button className="openbtn open-btn-grid" onClick={() => openNav()}>...</button>
-
+             <button className="openbtn open-btn-grid" onClick={() => openNav()}>...</button>
+            </div>
+        <div className="navbar navbar--ROP">
+          <div className="logo">
+            <Link href="/">
+              <img src="images/homepage/header-logo.png" alt="Logo" />
+            </Link>
           </div>
+      
+            <div className="nav-links">
+            <ul className="no-bullets">
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+     
+              <li>
+                <Link href="/events">Events</Link>
+              </li>
+              <li>
+                <Link href="/blog">Blog</Link>
+              </li>
+              <li>
+                <Link href="/shop">Shop</Link>
+              </li>
+              <li>
+                <Link href="/grid-view">Grid Home</Link>
+              </li>
+              <li>
+                <Link href="/animator">Animator</Link>
+              </li>
+              <li>
+                <Link href="/rules--of--play">Rules Of Play</Link>
+              </li>
+            </ul>
+            </div>
+            </div>
+        
         </header>
         <div className="ROP--hero">
           <p> Welcome To </p>
@@ -43,10 +77,9 @@ export default function ROP() {
         <div className="fun-center">
           <h2> Welcome To </h2>
           <h1>
-            
-            <span className="first-color"> Kid 's</span>
-            <span className="second-color">Fun</span>
-            <span className="third-color">Center</span>
+            <span className="first-color"> Kid 's </span>
+            <span className="second-color"> Fun </span>
+            <span className="third-color"> Center </span>
           </h1>
           <div className="fun--center--flexbox--2">
             <div className="flexbox open-session rop-item">
@@ -102,7 +135,7 @@ export default function ROP() {
             <button className="border--button"> Find Events </button>
           </div>  
         </div>
-        <div className="qodef-learn-play-flexbox">
+        <div className="kids--play--more">
           <div className="play-more-text">
             <h3>02. Play and Fun kids</h3>
             <h2>
