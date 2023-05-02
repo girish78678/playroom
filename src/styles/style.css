@@ -1847,3 +1847,9 @@
                 margin: auto;
             }
         }
+        
+        @media screen and (min-width: 1280px) {
+            .ROP--hero {
+                height: 25vw;
+            }
+        }
