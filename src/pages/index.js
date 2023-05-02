@@ -4,8 +4,8 @@ import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 
 import dynamic from "next/dynamic";
-import Section1 from "../components/swiper";
-import Parents from "../components/Parents";
+import Section1 from '../components/swiper';
+import Parents from '../components/Parents';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -31,23 +31,17 @@ export default function Home() {
         Header / >
         <
         /div> <
-        Section1 > < /Section1> <
+        Section1 > < /Section1>  <
         div className = "fun-center" >
         <
         h2 > Welcome To < /h2> <
-        h1 >
-        <
-        span className = "first-color" > Kid 's</span>{" "} <
-        span className = "second-color" > Fun < /span>{" "} <
-        span className = "third-color" > Center < /span> <
-        /h1> <
+        h1 > < span className = "first-color" > Kid 's</span> <span className="second-color">Fun</span> <span className="third-color">Center</span></h1> <
         div className = "fun--center--flexbox" >
         <
         div className = "flexbox open-session" >
         <
         img src = "/images/fun-center/open-sessions.jpg"
-        alt = "open-sessions image" /
-        >
+        alt = "open-sessions image" / >
         <
         h3 > Open Sessions < /h3> <
         p > Non dipopulo ancilae, epic palo eam erasmus se ergo no am. < /p> <
@@ -55,8 +49,7 @@ export default function Home() {
         div className = "flexbox" >
         <
         img src = "/images/fun-center/class-trips.jpg"
-        alt = "class-trips image" /
-        >
+        alt = "class-trips image" / >
         <
         h3 > Class Trips < /h3> <
         p > Non dipopulo ancilae, epic palo eam erasmus se ergo no am. < /p> <
@@ -64,8 +57,7 @@ export default function Home() {
         div className = "flexbox" >
         <
         img src = "/images/fun-center/birthday-parties.jpg"
-        alt = "birthday party image" /
-        >
+        alt = "birthday party image" / >
         <
         h3 > Birthday Party 's</h3> <
         p > Non dipopulo ancilae, epic palo eam erasmus se ergo no am. < /p> <
@@ -78,8 +70,7 @@ export default function Home() {
         <
         img className = "blank"
         src = "/images/background-images/pattern.png"
-        alt = "aa" /
-        >
+        alt = "aa" / >
         <
         /div> <
         div className = "event-video" >
@@ -88,8 +79,7 @@ export default function Home() {
         <
         img className = "blank"
         src = "/images/background-images/pattern.png"
-        alt = "aa" /
-        >
+        alt = "aa" / >
         <
         /div> <
         div className = "event-image kids-image" >
@@ -106,28 +96,22 @@ export default function Home() {
         <
         img class = "qodef-m-image"
         src = "https://playroom.qodeinteractive.com/wp-content/plugins/playroom-core/inc/shortcodes/video-button/assets/img/video-button-play.png"
-        alt = "Play icon image" >
-        < /img> <
+        alt = "Play icon image" > < /img> <
         /a> <
         /div> <
         div className = "event-text" >
         <
         h2 > New Video < /h2> <
-        h1 >
+        h1 > < span className = "first-color" > New < /span> <span className="second-color">Approach To</span > < span className = "third-color" > Fun < /span></h
+        1 >
         <
-        span className = "first-color" > New < /span>{" "} <
-        span className = "second-color" > Approach To < /span>{" "} <
-        span className = "third-color" > Fun < /span> <
-        /h1> <
-        p >
-        Tollit referrentur contentiones an sed.Ius tacimates defini tione, quoprimatum dicunt labitur te.Te debet tibique. <
-        /p> <
+        p > Tollit referrentur contentiones an sed.Ius tacimates defini tione, quoprimatum dicunt labitur te.Te debet tibique. < /p> <
         div className = "find-events" >
         <
         a href = "https://playroom.qodeinteractive.com/events/month/" >
         <
-        span class = "find-events--text" > Find Events < /span> <
-        /a> <
+        span class = "find-events--text" > Find Events < /span></a >
+        <
         /div> <
         /div> <
         /div> <
@@ -135,217 +119,16 @@ export default function Home() {
         <
         img className = "blank"
         src = "/images/background-images/pattern-2.png"
-        alt = "aa" /
-        >
+        alt = "aa" / >
         <
-        /div> {
-            /* <section className="section-padding bg-black">
-                  <div className="container">
-                    <div className="row">
-                      <div className="col-md-5 text-left">
-                        <h2 className="section-title">
-                          <span>Our Work</span>
-                        </h2>
-                        <hr className="border-2" />
-                      </div>
-                    </div>
-                    <div className="row">
-                      <div className="col-md-12 text-left">
-                        <ul className="gallery-filter">
-                          <li className="active" data-filter="*">
-                            All
-                          </li>
-                          <li data-filter=".films">Films</li>
-                          <li data-filter=".webseries">Web Series</li>
-                          <li data-filter=".tvc">TVC</li>
-                          <li data-filter=".musicvideo">Music Video</li>
-                        </ul>
-                      </div>
-                    </div>
-                    <div className="row gallery-items">
-                      <div className="masonry-items">
-                        <div className="col-md-4 gallery-masonry-wrapper single-item films">
-                          <a
-                            href="img/works/bajirao-mastani.jpg"
-                            title=""
-                            className="gallery-masonry-item-img-link img-zoom"
-                          >
-                            <div className="gallery-box">
-                              <div className="gallery-img">
-                                {" "}
-                                <img
-                                  src="/img/works/bajirao-mastani.jpg"
-                                  className="img-fluid mx-auto d-block"
-                                  alt=""
-                                />{" "}
-                              </div>
-                              <div className="gallery-masonry-item-img"></div>
-                            </div>
-                          </a>
-                        </div>
-                        <div className="col-md-4 gallery-masonry-wrapper single-item films">
-                          <a
-                            href="img/works/102-not-out.jpg"
-                            title=""
-                            className="gallery-masonry-item-img-link img-zoom"
-                          >
-                            <div className="gallery-box">
-                              <div className="gallery-img">
-                                {" "}
-                                <img
-                                  src="/img/works/102-not-out.jpg"
-                                  className="img-fluid mx-auto d-block"
-                                  alt=""
-                                />{" "}
-                              </div>
-                              <div className="gallery-masonry-item-img"></div>
-                            </div>
-                          </a>
-                        </div>
-                        <div className="col-md-4 gallery-masonry-wrapper single-item films">
-                          <a
-                            href="img/works/padmaavat.jpg"
-                            title=""
-                            className="gallery-masonry-item-img-link img-zoom"
-                          >
-                            <div className="gallery-box">
-                              <div className="gallery-img">
-                                {" "}
-                                <img
-                                  src="/img/works/padmaavat.jpg"
-                                  className="img-fluid mx-auto d-block"
-                                  alt=""
-                                />{" "}
-                              </div>
-                              <div className="gallery-masonry-item-img"></div>
-                            </div>
-                          </a>
-                        </div>
-                        <div className="col-md-4 gallery-masonry-wrapper single-item films">
-                          <a
-                            href="img/works/pushpa.jpg"
-                            title=""
-                            className="gallery-masonry-item-img-link img-zoom"
-                          >
-                            <div className="gallery-box">
-                              <div className="gallery-img">
-                                {" "}
-                                <img
-                                  src="/img/works/pushpa.jpg"
-                                  className="img-fluid mx-auto d-block"
-                                  alt=""
-                                />{" "}
-                              </div>
-                              <div className="gallery-masonry-item-img"></div>
-                            </div>
-                          </a>
-                        </div>
-                        <div className="col-md-4 gallery-masonry-wrapper single-item webseries">
-                          <a
-                            href="img/works/cartel.jpg"
-                            title=""
-                            className="gallery-masonry-item-img-link img-zoom"
-                          >
-                            <div className="gallery-box">
-                              <div className="gallery-img">
-                                {" "}
-                                <img
-                                  src="/img/works/cartel.jpg"
-                                  className="img-fluid mx-auto d-block"
-                                  alt=""
-                                />{" "}
-                              </div>
-                              <div className="gallery-masonry-item-img"></div>
-                            </div>
-                          </a>
-                        </div>
-                        <div className="col-md-4 gallery-masonry-wrapper single-item webseries">
-                          <a
-                            href="img/works/ray.jpg"
-                            title=""
-                            className="gallery-masonry-item-img-link img-zoom"
-                          >
-                            <div className="gallery-box">
-                              <div className="gallery-img">
-                                {" "}
-                                <img
-                                  src="/img/works/ray.jpg"
-                                  className="img-fluid mx-auto d-block"
-                                  alt=""
-                                />{" "}
-                              </div>
-                              <div className="gallery-masonry-item-img"></div>
-                            </div>
-                          </a>
-                        </div>
-                        <div className="col-md-4 gallery-masonry-wrapper single-item musicvideo">
-                          <a
-                            href="img/works/music-video.jpg"
-                            title=""
-                            className="gallery-masonry-item-img-link img-zoom"
-                          >
-                            <div className="gallery-box">
-                              <div className="gallery-img">
-                                {" "}
-                                <img
-                                  src="/img/works/music-video.jpg"
-                                  className="img-fluid mx-auto d-block"
-                                  alt=""
-                                />{" "}
-                              </div>
-                              <div className="gallery-masonry-item-img"></div>
-                            </div>
-                          </a>
-                        </div>
-                        <div className="col-md-4 gallery-masonry-wrapper single-item tvc">
-                          <a
-                            href="img/works/ranveer.jpg"
-                            title=""
-                            className="gallery-masonry-item-img-link img-zoom"
-                          >
-                            <div className="gallery-box">
-                              <div className="gallery-img">
-                                {" "} 
-                                <img
-                                  src="/img/works/ranveer.jpg"
-                                  className="img-fluid mx-auto d-block"
-                                  alt=""
-                                />{" "}
-                              </div>
-                              <div className="gallery-masonry-item-img"></div>
-                            </div>
-                          </a>
-                        </div>
-                        <div className="col-md-4 gallery-masonry-wrapper single-item tvc">
-                          <a
-                            href="img/works/akshay.jpg"
-                            title=""
-                            className="gallery-masonry-item-img-link img-zoom"
-                          >
-                            <div className="gallery-box">
-                              <div className="gallery-img">
-                                {" "}
-                                <img
-                                  src="/img/works/akshay.jpg"
-                                  className="img-fluid mx-auto d-block"
-                                  alt=""
-                                />{" "}
-                              </div>
-                              <div className="gallery-masonry-item-img"></div>
-                            </div>
-                          </a>
-                        </div>
-                      </div>
-                    </div>
-                  </div>
-                </section> */
-        } <
+        /div>
+
+        <
         div className = "elementary-image-1 " >
         <
         img className = "blank"
         src = "/images/homepage/elementary-1.png"
-        alt = "aa" /
-        >
+        alt = "aa" / >
         <
         /div> <
         div className = "new-events" >
@@ -353,18 +136,14 @@ export default function Home() {
         div className = "event-play-section" >
         <
         h2 > Come and see < /h2> <
-        h1 >
+        h1 > < span className = "first-color" > Play < /span> <span className="second-color">& Learn with</span > < span className = "third-color" > Us < /span></h
+        1 >
         <
-        span className = "first-color" > Play < /span>{" "} <
-        span className = "second-color" > & Learn with < /span>{" "} <
-        span className = "third-color" > Us < /span> <
-        /h1> <
-        p >
-        Lorem ipsum dolor sit amet, an aeque vitupera tori has, sed eta solumstemst maluisset at, ad mei ecco hinc indoctum. { " " } <
-        /p> <
+        p > Lorem ipsum dolor sit amet, an aeque vitupera tori has, sed eta solumstemst maluisset at, ad mei ecco hinc indoctum. < /p> <
         div className = "exp-flexbox" >
         <
         div className = "experience" >
+
         <
         h3 > Experience < /h3> <
         /div> <
@@ -372,6 +151,7 @@ export default function Home() {
         /div> <
         div className = "experience--bar" > < /div> <
         div className = "create-flexbox" >
+
         <
         div className = "creativity" >
         <
@@ -397,18 +177,15 @@ export default function Home() {
         <
         img className = "blank elementary-2"
         src = "/images/background-images/pattern-2.png"
-        alt = "aa" /
-        >
+        alt = "aa" / >
         <
         /div> <
         div className = "happy-parents" >
         <
         h3 > What They Say < /h3> <
-        h2 > { " " } <
-        span className = "first-color" > Our < /span>{" "} <
-        span className = "second-color" > Happy < /span>{" "} <
-        span className = "third-color" > Parents < /span> <
-        /h2> <
+        h2 > < span className = "first-color" > Our < /span> <span className="second-color">Happy</span > < span className = "third-color" > Parents < /span></h
+        2 >
+        <
         /div> <
         div className = "swiper--2" >
         <
