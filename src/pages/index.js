@@ -4,8 +4,8 @@ import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 
 import dynamic from "next/dynamic";
-import Section1 from "../components/swiper";
-import Parents from "../components/Parents";
+import Section1 from '../components/swiper';
+import Parents from '../components/Parents';
 import Header from "../components/Header";
 import Footer from "../components/Footer";
 
@@ -31,23 +31,17 @@ export default function Home() {
         Header / >
         <
         /div> <
-        Section1 > < /Section1> <
+        Section1 > < /Section1>  <
         div className = "fun-center" >
         <
         h2 > Welcome To < /h2> <
-        h1 >
-        <
-        span className = "first-color" > Kid 's</span>{" "} <
-        span className = "second-color" > Fun < /span>{" "} <
-        span className = "third-color" > Center < /span> <
-        /h1> <
+        h1 > < span className = "first-color" > Kid 's</span> <span className="second-color">Fun</span> <span className="third-color">Center</span></h1> <
         div className = "fun--center--flexbox" >
         <
         div className = "flexbox open-session" >
         <
         img src = "/images/fun-center/open-sessions.jpg"
-        alt = "open-sessions image" /
-        >
+        alt = "open-sessions image" / >
         <
         h3 > Open Sessions < /h3> <
         p > Non dipopulo ancilae, epic palo eam erasmus se ergo no am. < /p> <
@@ -55,8 +49,7 @@ export default function Home() {
         div className = "flexbox" >
         <
         img src = "/images/fun-center/class-trips.jpg"
-        alt = "class-trips image" /
-        >
+        alt = "class-trips image" / >
         <
         h3 > Class Trips < /h3> <
         p > Non dipopulo ancilae, epic palo eam erasmus se ergo no am. < /p> <
@@ -64,8 +57,7 @@ export default function Home() {
         div className = "flexbox" >
         <
         img src = "/images/fun-center/birthday-parties.jpg"
-        alt = "birthday party image" /
-        >
+        alt = "birthday party image" / >
         <
         h3 > Birthday Party 's</h3> <
         p > Non dipopulo ancilae, epic palo eam erasmus se ergo no am. < /p> <
@@ -78,8 +70,7 @@ export default function Home() {
         <
         img className = "blank"
         src = "/images/background-images/pattern.png"
-        alt = "aa" /
-        >
+        alt = "aa" / >
         <
         /div> <
         div className = "event-video" >
@@ -88,8 +79,7 @@ export default function Home() {
         <
         img className = "blank"
         src = "/images/background-images/pattern.png"
-        alt = "aa" /
-        >
+        alt = "aa" / >
         <
         /div> <
         div className = "event-image kids-image" >
@@ -106,28 +96,22 @@ export default function Home() {
         <
         img class = "qodef-m-image"
         src = "https://playroom.qodeinteractive.com/wp-content/plugins/playroom-core/inc/shortcodes/video-button/assets/img/video-button-play.png"
-        alt = "Play icon image" >
-        < /img> <
+        alt = "Play icon image" > < /img> <
         /a> <
         /div> <
         div className = "event-text" >
         <
         h2 > New Video < /h2> <
-        h1 >
+        h1 > < span className = "first-color" > New < /span> <span className="second-color">Approach To</span > < span className = "third-color" > Fun < /span></h
+        1 >
         <
-        span className = "first-color" > New < /span>{" "} <
-        span className = "second-color" > Approach To < /span>{" "} <
-        span className = "third-color" > Fun < /span> <
-        /h1> <
-        p >
-        Tollit referrentur contentiones an sed.Ius tacimates defini tione, quoprimatum dicunt labitur te.Te debet tibique. <
-        /p> <
+        p > Tollit referrentur contentiones an sed.Ius tacimates defini tione, quoprimatum dicunt labitur te.Te debet tibique. < /p> <
         div className = "find-events" >
         <
         a href = "https://playroom.qodeinteractive.com/events/month/" >
         <
-        span class = "find-events--text" > Find Events < /span> <
-        /a> <
+        span class = "find-events--text" > Find Events < /span></a >
+        <
         /div> <
         /div> <
         /div> <
@@ -135,8 +119,7 @@ export default function Home() {
         <
         img className = "blank"
         src = "/images/background-images/pattern-2.png"
-        alt = "aa" /
-        >
+        alt = "aa" / >
         <
         /div> {
             /* <section className="section-padding bg-black">
@@ -344,8 +327,7 @@ export default function Home() {
         <
         img className = "blank"
         src = "/images/homepage/elementary-1.png"
-        alt = "aa" /
-        >
+        alt = "aa" / >
         <
         /div> <
         div className = "new-events" >
@@ -353,18 +335,14 @@ export default function Home() {
         div className = "event-play-section" >
         <
         h2 > Come and see < /h2> <
-        h1 >
+        h1 > < span className = "first-color" > Play < /span> <span className="second-color">& Learn with</span > < span className = "third-color" > Us < /span></h
+        1 >
         <
-        span className = "first-color" > Play < /span>{" "} <
-        span className = "second-color" > & Learn with < /span>{" "} <
-        span className = "third-color" > Us < /span> <
-        /h1> <
-        p >
-        Lorem ipsum dolor sit amet, an aeque vitupera tori has, sed eta solumstemst maluisset at, ad mei ecco hinc indoctum. { " " } <
-        /p> <
+        p > Lorem ipsum dolor sit amet, an aeque vitupera tori has, sed eta solumstemst maluisset at, ad mei ecco hinc indoctum. < /p> <
         div className = "exp-flexbox" >
         <
         div className = "experience" >
+
         <
         h3 > Experience < /h3> <
         /div> <
@@ -372,6 +350,7 @@ export default function Home() {
         /div> <
         div className = "experience--bar" > < /div> <
         div className = "create-flexbox" >
+
         <
         div className = "creativity" >
         <
@@ -397,18 +376,15 @@ export default function Home() {
         <
         img className = "blank elementary-2"
         src = "/images/background-images/pattern-2.png"
-        alt = "aa" /
-        >
+        alt = "aa" / >
         <
         /div> <
         div className = "happy-parents" >
         <
         h3 > What They Say < /h3> <
-        h2 > { " " } <
-        span className = "first-color" > Our < /span>{" "} <
-        span className = "second-color" > Happy < /span>{" "} <
-        span className = "third-color" > Parents < /span> <
-        /h2> <
+        h2 > < span className = "first-color" > Our < /span> <span className="second-color">Happy</span > < span className = "third-color" > Parents < /span></h
+        2 >
+        <
         /div> <
         div className = "swiper--2" >
         <
