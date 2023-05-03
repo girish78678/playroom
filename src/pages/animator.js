@@ -23,8 +23,8 @@ export default function GridHome() {
           <div className="animator--text">
             <h3>Welcome to Playroom</h3>
             <h1>
-              <span className="first-color">Meet</span>{" "}
-              <span className="second-color">Your</span>{" "}
+              <span className="first-color">Meet</span>
+              <span className="second-color">Your</span>
               <span className="third-color">Animator</span>
             </h1>
             <p>
@@ -34,9 +34,8 @@ export default function GridHome() {
             </p>
             <p>
               <span>
-                {" "}
                 <strong className="Bold--animator ">
-                  ”Lorem ipsum dolor sit amet, consectetur adipiscing elit.”{" "}
+                  ”Lorem ipsum dolor sit amet, consectetur adipiscing elit."
                 </strong>
               </span>
             </p>
