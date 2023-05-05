@@ -1,4 +1,6 @@
 import Link from "next/link";
+// import { openNav } from "./pages/navbar.js";
+// import { closeNav }from ".pages/navbar.js";
 import Head from "next/head.js";
 const Header = () => {
   return (
@@ -79,3 +81,5 @@ const Header = () => {
 };
 
 export default Header;
+
+
