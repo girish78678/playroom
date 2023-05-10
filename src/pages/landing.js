@@ -1,7 +1,5 @@
 function Landing() {
-    return <div>About</div>
-  }
-  
-  export default Landing;
+  return <div>About</div>;
+}
 
-  
+export default Landing;
