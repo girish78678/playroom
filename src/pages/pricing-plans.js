@@ -166,6 +166,69 @@ export default function Plans() {
         <div className="slideshow">
           <Slideshow />
         </div>
+        <div className="fun-center fun-center--3">
+          <h2> Welcome For</h2>
+          <h1>
+            <span className="first-color"> Our </span>
+            <span className="second-color"> Party </span>
+            <span className="third-color"> Add On's </span>
+          </h1>
+
+          <div className="context-menu-flx">
+            <div className="text--head">
+              <h5 class="qodef-accordion-title">
+                <span class="qodef-tab-title">Magic Birthday Party </span>
+              </h5>
+              <p>
+                E tritani albucius vim, eam ne non umes splendide, ut ius ferri
+                populo pri errem pertinax cu ei modo
+              </p>
+            </div>
+            <div className="text--head">
+              <h5 class="qodef-accordion-title">
+                <span class="qodef-tab-title">Pool Party </span>
+              </h5>
+              <p>
+              Vix ne mundi animal voluptaria, persius volumus pri id, ne eos copiosae indoctum constituam liquando
+              </p>
+            </div>
+            <div className="text--head">
+              <h5 class="qodef-accordion-title">
+                <span class="qodef-tab-title"> Funny Clown Party </span>
+              </h5>
+              <p>
+              Sea an audire oblique salutatus, solum saepe contentiones ea nec, alia natum conclusion
+              </p>
+            </div>
+            <div className="text--head">
+              <h5 class="qodef-accordion-title">
+                <span class="qodef-tab-title">Dance Party </span>
+              </h5>
+              <p>
+             
+
+Putant adipisci patrioque in has, te quo possit persius conceptam pri ut iracundia quaerendum
+
+              </p>
+            </div>
+            <div className="text--head">
+              <h5 class="qodef-accordion-title">
+                <span class="qodef-tab-title">Costume Party </span>
+              </h5>
+              <p>
+              Ea vis justo invidunt, ne civibus invidunt sit. Sed impedit recusabo adolescens ea, pri erat mutat
+              </p>
+            </div>
+            <div className="text--head">
+              <h5 class="qodef-accordion-title">
+                <span class="qodef-tab-title">Surprise Party </span>
+              </h5>
+              <p>
+              Has veri simul scaevola eu, movet laudem putant nec at, eu est iusto altera iriure
+              </p>
+            </div>
+          </div>
+        </div>
         </main>
         <div className="footer-sec">
         <Footer />
