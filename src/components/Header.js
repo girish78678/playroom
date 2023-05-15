@@ -30,15 +30,18 @@ const Header = () => {
               <li>
                 <Link href="/pricing-plans">Pricing Plans</Link>
               </li>
-              <li>
+              {/* <li>
                 <Link href="/events">Events</Link>
-              </li>
+              </li> */}
              
-              <li>
+              {/* <li>
                 <Link href="/shop">Shop</Link>
-              </li>
+              </li> */}
               <li>
                 <Link href="/about-us">About Us</Link>
+              </li>
+              <li>
+                <Link href="/contact-us">Contact Us</Link>
               </li>
               <li>
                 <Link href="/grid-view">Grid Home</Link>
@@ -58,3 +61,4 @@ const Header = () => {
     };
     
     export default Header;
+    
