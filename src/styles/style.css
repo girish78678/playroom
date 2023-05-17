@@ -2597,7 +2597,37 @@ padding-bottom: 4%;
     width: 200%;
     background-color: #F6E3DB !important;
 }
+.work--day--flx{
+    color: #444;
 
+}
+.work-days{
+    display: flex;
+justify-content: space-between;
+display: flex;
+align-items: baseline;
+margin-bottom: 15px;
+padding-bottom: 17px;
+border-bottom: 1px dashed #f4c7af;
+}
+.event-play-section h2{
+    color: #444;
+}
+.work--hours{
+    background-color: #F6F1E4 !important;
+    padding-top: 0%;
+}
+.work--hours h2{
+    margin:18px auto 10px;
+    font-weight: 900;
+   }
+.work--hours h3{
+ margin:18px auto 10px;
+ font-family: Raleway;
+}
+.work--hours h1{
+    margin: 21px auto;
+}
 @media screen and (min-width: 568px) {
     .Book--hero{
         height: 28vw;
@@ -2612,6 +2642,32 @@ padding-bottom: 4%;
     .react-calendar{
         width: 200% !important;
     }
+    .work--day--flx{
+    display: flex;
+    flex-direction: column;
+    }
 
+@media screen and (min-width:1024px){
 
+.calendar--flexbox{
+    display: flex;
+    flex-direction: row;
+    justify-content: center;
+    flex-wrap: wrap;
+    align-items: center;
+    margin: 40px auto;
+  }
+
+.work--hours{
+    width: 53%;
+    margin-top: 0px;
+}
+.calendar {
+    background-color: #F6F1E4;
+    width: 39%;
+    display: block;
+    margin: auto;
+  }
+
+}
 

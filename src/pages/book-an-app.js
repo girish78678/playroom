@@ -92,8 +92,60 @@ export default function BookAppointment() {
           <p className="pink"> Welcome To Playroom </p>
           <h1>Book A Party</h1>
         </div>
+        <div className="calendar--flexbox">
+
         <div className="calendar">
             <Calendardates/>
+        </div>
+        <div className="event-play-section work--hours">
+            <h2>Check out our</h2>
+            <h1>
+              <span className="first-color">Work </span> 
+              <span className="second-color">Hours & </span> 
+              <span className="third-color"> Days </span> 
+            </h1>
+            <div className="work--day--flx"> 
+            <div className="work-days">
+              <div className="work-day">
+              <h3>Mon - Wed </h3>
+              </div>
+              <div className="emplty--flx"></div>
+              <div className="work-time">
+               <p>9:00 AM - 12:00 PM</p>
+              </div>
+            </div>
+              <div className="work-days">
+              <div className="work-day">
+              <h3>Thu - Fri  </h3>
+              </div>
+              <div className="emplty--flx"></div>
+              <div className="work-time">
+               <p>9:00 AM - 12:00 PM</p>
+              </div>
+            </div>
+            <div className="work-days">
+              <div className="work-day">
+              <h3>Saturday  </h3>
+              </div>
+              <div className="emplty--flx"></div>
+              <div className="work-time">
+               <p>9:00 AM - 12:00 PM</p>
+              </div>
+              </div>
+            <div className="work-days">
+              <div className="work-day">
+              <h3>Sunday </h3>
+              </div>
+              <div className="emplty--flx"></div>
+              <div className="work-time">
+               <p>CLOSED</p>
+              </div>
+              </div>
+            </div>
+            <p>
+               Suas quas veniam at eam, vix an vide deleniti dissentiet, eam cu semper oblique placerat pri no.
+            </p>
+            </div>
         </div>
         </main>
         <div className="footer-sec">
