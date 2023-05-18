@@ -6,6 +6,9 @@ import Header from "@/components/Header";
 import dynamic from "next/dynamic";
 import Calendardates from "@/components/calender";
 import Footer from "@/components/Footer";
+import Reverseshow from "@/components/reverse-slide";
+import Slidesshow from "@/components/new-slides";
+
 export default function BookAppointment() {
   return (
     <>
@@ -146,6 +149,10 @@ export default function BookAppointment() {
                Suas quas veniam at eam, vix an vide deleniti dissentiet, eam cu semper oblique placerat pri no.
             </p>
             </div>
+        </div>
+        <div className="slides">
+          < Reverseshow />
+          <Slidesshow />
         </div>
         </main>
         <div className="footer-sec">
