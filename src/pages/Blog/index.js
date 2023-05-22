@@ -5,6 +5,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import dynamic from "next/dynamic";
 import Footer from "@/components/Footer";
+import FadeMenu from "@/components/material";
 export default function Blog() {
   return (
     <>
@@ -20,35 +21,47 @@ export default function Blog() {
             <Header />
           </div>
         </header>
+        <div className="blog--head">
+          <div className="blog-tittle">
+            <h3>no sidebar</h3>
+          </div>
+          <div className="empty-div">
+            <p>none
+            </p>
+          </div>
+          <div className="blog-text">
+            <h3>home/no sidebar </h3>
+          </div>
+        </div>
         <div class="my-flex-container blog-flex">
         <div class="my-card my--card__item">
-    <img src="/images/grid-home/kid-3.jpg " alt="kid" />
+    <img src="/images/blog/blue-kid.jpg " alt="kid" />
     <div class="my-card-content">
-      <h2>Always Be There for Your Child </h2>
+      <h2>Make their Dream Come True </h2>
       <div className="card--content--flexbox">
-      <p class="my-date">June 5 2020</p>
-      <p class="my-play">Play</p>
+      <p class="my-date">May 25 2020</p>
+      <p class="my-play">Cute / Parents</p>
       </div>
     </div>
   </div>
   
   <div class="my-card my--card__item">
-  <img src="/images/grid-home/kid-2.jpg" alt="kid" />
+  <img src="/images/blog/pink-kid.jpg" alt="kid" />
     <div class="my-card-content">
-      <h2>Doing What They Know and Love </h2>
+      <h2>  Bringing Out the Kid in All of Us  </h2>
       <div className="card--content--flexbox">
-      <p class="my-date">June 5 2020</p>
-      <p class="my-play">Play</p>
+      <p class="my-date">May 27 2020</p>
+      <p class="my-play">Parents / Teaching</p>
       </div>
     </div>
     </div>
     <div class="my-card my--card__item">
-   <img src="/images/grid-home/kid-1.jpg" alt="kid" />
+   <img src="/images/blog/B&W-kid.jpg" alt="kid" />
     <div class="my-card-content">
       <h2>Come With Us and Have More Fun</h2>
       <div className="card--content--flexbox">
-      <p class="my-date">June 5 2020</p>
-      <p class="my-play">Play</p>
+      <p class="my-date">May 27 2020</p>
+      <p class="my-play">Parents</p>
       </div>
     </div>
   </div>

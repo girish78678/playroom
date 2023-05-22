@@ -4,8 +4,9 @@ import styles from "@/styles/Home.module.css";
 import Link from "next/link";
 import Header from "@/components/Header";
 import dynamic from "next/dynamic";
+import FadeMenu from "@/components/material";
 import Footer from "../components/Footer";
-export default function ROP() {
+export default function Abouts() {
   return (
     <>
       <Head>
@@ -60,31 +61,28 @@ export default function ROP() {
             </div>
 
             <div className="nav-links">
-              <ul className="no-bullets">
-                <li>
-                  <Link href="/">Home</Link>
-                </li>
+            <ul className = "no-bullets">
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <Link href="#"><FadeMenu /></Link>
+              </li>
+              <li>
+                <Link href="/Blog">Blog</Link>
+              </li>
 
-                <li>
-                  <Link href="/events">Events</Link>
-                </li>
-                <li>
-                  <Link href="/blog">Blog</Link>
-                </li>
-                <li>
-                  <Link href="/shop">Shop</Link>
-                </li>
-                <li>
-                  <Link href="/grid-view">Grid Home</Link>
-                </li>
-                <li>
-                  <Link href="/animator">Animator</Link>
-                </li>
-                <li>
-                  <Link href="/rules--of--play">Rules Of Play</Link>
-                </li>
-              </ul>
-            </div>
+              <li>
+                <Link href="/shop">Shop</Link>
+                 </li> 
+              <li>
+                <Link href="/grid-view">Grid Home</Link>
+              </li>
+              <li>
+                <Link href="/Events">Events</Link>
+              </li>
+            </ul>
+          </div>
           </div>
         </header>
         <div className="ROP--hero about--us--hero">
@@ -141,9 +139,9 @@ export default function ROP() {
           <div className="event-play-section">
             <h2>Education & Play</h2>
             <h1>
-              <span className="first-color">Kids'</span>
-              <span className="second-color">Fun & Play</span>
-              <span className="third-color">Space</span>
+              <span className="first-color">Kid's </span> 
+              <span className="second-color">Fun & Play </span> 
+              <span className="third-color"> Space</span> 
             </h1>
             <p>
               Partem deserunt inciderint euismod noluisse has in, persiusem de
@@ -221,9 +219,9 @@ export default function ROP() {
 <div className="map--text">
   <h2>Sign up FOR MORE INFO</h2>
   <h1>
-              <span className="first-color">Stay</span>
-              <span className="second-color">tuned</span>
-              <span className="third-color">For More</span>
+              <span className="first-color">Stay </span> 
+              <span className="second-color">tuned </span> 
+              <span className="third-color">For More </span>
             </h1>
             <p>Mea ea omnesque dignissim, modo alterum honestatis quon id. Vix possit torquatos ad, et vix tota definitiones. </p>
   <input className="input--text" type="text" placeholder="Email "/>
@@ -234,9 +232,9 @@ export default function ROP() {
 </label> 
 
 </div>
-<div className="map">
-<iframe src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d24175.93406743113!2d-73.989465!3d40.762206!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1683521937515!5m2!1sen!2sin" width="450
-" height="450" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+<div className="map map--contact">
+<iframe class="map-size"src="https://www.google.com/maps/embed?pb=!1m10!1m8!1m3!1d24175.93406743113!2d-73.989465!3d40.762206!3m2!1i1024!2i768!4f13.1!5e0!3m2!1sen!2sin!4v1683521937515!5m2!1sen!2sin" width="335
+" height="380" style={{ border: "0" }} allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
 </div>
         </div>
       </main>

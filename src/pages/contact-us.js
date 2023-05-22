@@ -1,3 +1,4 @@
+
 import Head from "next/head";
 import Image from "next/image";
 import styles from "@/styles/Home.module.css";
@@ -5,7 +6,8 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import dynamic from "next/dynamic";
 import Footer from "@/components/Footer";
-export default function Animator() {
+import FadeMenu from "@/components/material";
+export default function Contact() {
   return (
     <>
       <Head>
@@ -61,31 +63,28 @@ export default function Animator() {
             </div>
 
             <div className="nav-links">
-              <ul className="no-bullets">
-                <li>
-                  <Link href="/">Home</Link>
-                </li>
+            <ul className = "no-bullets">
+              <li>
+                <Link href="/">Home</Link>
+              </li>
+              <li>
+                <Link href="#"><FadeMenu /></Link>
+              </li>
+              <li>
+                <Link href="/Blog">Blog</Link>
+              </li>
 
-                <li>
-                  <Link href="/events">Events</Link>
-                </li>
-                <li>
-                  <Link href="/blog">Blog</Link>
-                </li>
-                <li>
-                  <Link href="/shop">Shop</Link>
-                </li>
-                <li>
-                  <Link href="/grid-view">Grid Home</Link>
-                </li>
-                <li>
-                  <Link href="/animator">Animator</Link>
-                </li>
-                <li>
-                  <Link href="/rules--of--play">Rules Of Play</Link>
-                </li>
-              </ul>
-            </div>
+              <li>
+                <Link href="/shop">Shop</Link>
+                 </li> 
+              <li>
+                <Link href="/grid-view">Grid Home</Link>
+              </li>
+              <li>
+                <Link href="/Events">Events</Link>
+              </li>
+            </ul>
+          </div>
           </div>
         </header>
         <div className="map--none">
