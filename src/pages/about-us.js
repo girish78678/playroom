@@ -6,6 +6,7 @@ import Header from "@/components/Header";
 import dynamic from "next/dynamic";
 import FadeMenu from "@/components/material";
 import Footer from "../components/Footer";
+import FadeMenu2 from "@/components/pages";
 export default function Abouts() {
   return (
     <>
@@ -49,9 +50,7 @@ export default function Abouts() {
                 Landing
               </a>
             </div>
-            <button className="openbtn open-btn-grid" onClick={() => openNav()}>
-              ...
-            </button>
+           <FadeMenu2/>
           </div>
           <div className="navbar navbar--ROP">
             <div className="logo">

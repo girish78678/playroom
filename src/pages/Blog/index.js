@@ -5,7 +5,6 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import dynamic from "next/dynamic";
 import Footer from "@/components/Footer";
-import FadeMenu from "@/components/material";
 export default function Blog() {
   return (
     <>
@@ -44,7 +43,16 @@ export default function Blog() {
       </div>
     </div>
   </div>
-  
+  <div className="blog-section"> 
+    <a href="">
+<div className="blog--flx">
+  <div className="svg-img">
+
+  </div>
+  div.paragraphaph
+</div>
+    </a>
+  </div>
   <div class="my-card my--card__item">
   <img src="/images/blog/pink-kid.jpg" alt="kid" />
     <div class="my-card-content">
