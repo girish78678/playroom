@@ -5,6 +5,7 @@ import Link from "next/link";
 import Header from "@/components/Header";
 import dynamic from "next/dynamic";
 import Footer from "@/components/Footer";
+import Bluekid from "./bluekid";
 export default function Blog() {
   return (
     <>
@@ -32,7 +33,9 @@ export default function Blog() {
             <h3>home/no sidebar </h3>
           </div>
         </div>
+
         <div class="my-flex-container blog-flex">
+    
         <div class="my-card my--card__item">
     <img src="/images/blog/blue-kid.jpg " alt="kid" />
     <div class="my-card-content">
@@ -42,6 +45,7 @@ export default function Blog() {
       <p class="my-play">Cute / Parents</p>
       </div>
     </div>
+    
   </div>
   <div className="blog-section"> 
     <a href="">

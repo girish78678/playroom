@@ -2785,3 +2785,62 @@ border-bottom: 1px dashed #f4c7af;
     font-size: 18px !important;
     align-self: center;
 }
+.right-flx{
+    color: #444;
+}
+/* blue kid */
+
+.kid-image img{
+    height: 32vh;
+    width: -moz-available;
+}
+.blue-kid img{
+    width: -webkit-fill-available;
+}
+.blog--flx{
+    padding: 4%;
+}
+.blog-img-flx{
+    display: flex;
+    flex-direction: column;
+    gap: 18px;
+    margin-bottom: 32px;
+}
+.blog-img-flx img{
+    border-radius: 2%;
+
+}
+.right-flx h2{
+    font-size: 2.5rem;
+  font-family: 'Baloo Chettan 2', cursive; 
+  text-align: left;
+  line-height: 1.2;
+}
+.date-flx{
+    display: flex;
+    flex-direction: row;
+    justify-content: flex-start;
+    gap: 20px;
+    color: #444;
+    font-family: Raleway;
+    opacity: 0.8;
+    margin: 16px auto;
+}
+.blog-para{
+    font-family: Raleway;
+    line-height: 1.6;
+    margin-bottom: 32px;
+    opacity: 0.9;
+}
+.new-para-blog {
+    font-family: Raleway;
+    line-height: 1.6;
+    margin-bottom: 32px;
+    opacity: 0.7;
+}
+.red-para{
+    color: #ec6830;
+}
+.new-para-blog p {
+    margin: 16px auto
+}
