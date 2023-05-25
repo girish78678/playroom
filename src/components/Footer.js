@@ -9,17 +9,17 @@ const Footer = () => {
 <div className="sec-container footer--logo">
           <div className="footer-section1">
             <Link href="/">
-              <img src="images/homepage/logo-footer.png" alt="Logo" />
+              <img src="/images/homepage/logo-footer.png" alt="Logo" />
             </Link>
               <h4>Playroom</h4>
               <p className="opacity">Welcome to your new children's entertainment center website!</p>
          </div>
          <div className="social-icons-groups">
-         <div className="bg-color"><img src="images/icons/facebook.png" alt="facebook"/>
+         <div className="bg-color"><img src="/images/icons/facebook.png" alt="facebook"/>
            </div>
-            <div className="bg-color"><img src="images/icons/twitter.png" alt="twitter"/>
+            <div className="bg-color"><img src="/images/icons/twitter.png" alt="twitter"/>
            </div>
-           <div className="bg-color instagram"> <img src="images/icons/instagram.png" alt="instagram"/>
+           <div className="bg-color instagram"> <img src="/images/icons/instagram.png" alt="instagram"/>
            </div>
 
          </div>
@@ -53,25 +53,25 @@ const Footer = () => {
         </div> */}
   <div className="e-title-text">
     <p>
-    <span><img src="images/homepage/bullets.png" alt="bullets"/></span>
+    <span><img src="/images/homepage/bullets.png" alt="bullets"/></span>
     <span className="inner-text">Party venue center play rules</span>
     </p>
   </div>
   <div className="e-title-text">
     <p>
-    <span><img src="images/homepage/bullets.png" alt="bullets"/></span>
+    <span><img src="/images/homepage/bullets.png" alt="bullets"/></span>
     <span className="inner-text">Make your party Reservation</span>
     </p>
   </div>
   <div className="e-title-text qodef-left">
   <p>
-    <span><img src="images/homepage/bullets.png" alt="bullets"/></span>
+    <span><img src="/images/homepage/bullets.png" alt="bullets"/></span>
     <span className="inner-text">Our Premises</span>
     </p>
   </div>
   <div className="e-title-text qodef-left">
     <p>
-    <span><img src="images/homepage/bullets.png" alt="bullets"/></span>
+    <span><img src="/images/homepage/bullets.png" alt="bullets"/></span>
     <span className="inner-text ">Working hours</span>
     </p>
   </div>

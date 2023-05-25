@@ -19,7 +19,7 @@ export default function section1() {
     <Swiper
     // install Swiper modules
     modules={[Navigation, Pagination, Scrollbar, A11y]}
-    spaceBetween={60}
+    spaceBetween={30}
     slidesPerView={1}
     loop={true}
     navigation

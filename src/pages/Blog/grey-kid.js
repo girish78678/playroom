@@ -86,17 +86,17 @@ export default function Bluekid() {
           </div>
         </header>
       <div className="kid-image blue-kid">
-        <img src="/images/blog/blue-kid.jpg" alt="image" />
+        <img src="/images/blog/B&W-kid.jpg" alt="image" />
       </div>
       <div className="blog--flx">
         <div className="right-flx">
-          <h2>Make Their Dreams Come to Life </h2>
+          <h2>Bringing Out the Kid in All of Us  </h2>
           <div className="date-flx">
             <div className="day-blog">
-              <p>May 25, 2020 </p>
+              <p>May 27, 2020 ,</p>
             </div>
             <div className="category">
-              <p>Cute / Parents</p>
+              <p> Parents</p>
             </div>
           </div>
           <div className="blog-para">
